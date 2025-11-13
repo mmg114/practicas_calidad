@@ -2,10 +2,10 @@
 
 ## 📌 1. Ejecutar Docker Compose
 
-Para levantar todos los servicios definidos en tu archivo `docker-compose.yml`, utiliza:
+Para levantar todos los servicios definidos en tu archivo `docker-compose-sonar.yml`, utiliza:
 
 ```
-docker compose up -d
+docker compose -f docker-compose-sonar.yml up -d
 ```
 
 - `up` → crea y levanta los contenedores
